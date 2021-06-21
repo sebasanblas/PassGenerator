@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		CCB9099B2680125100A1EAD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB9099A2680125100A1EAD5 /* AppDelegate.swift */; };
 		CCB9099D2680125100A1EAD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB9099C2680125100A1EAD5 /* SceneDelegate.swift */; };
-		CCB9099F2680125100A1EAD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB9099E2680125100A1EAD5 /* ViewController.swift */; };
+		CCB9099F2680125100A1EAD5 /* PassGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB9099E2680125100A1EAD5 /* PassGeneratorViewController.swift */; };
 		CCB909A22680125100A1EAD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB909A02680125100A1EAD5 /* Main.storyboard */; };
 		CCB909A42680125300A1EAD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB909A32680125300A1EAD5 /* Assets.xcassets */; };
 		CCB909A72680125300A1EAD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB909A52680125300A1EAD5 /* LaunchScreen.storyboard */; };
+		CCB909B22680183500A1EAD5 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB909B12680183500A1EAD5 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CCB909972680125100A1EAD5 /* PassGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB9099A2680125100A1EAD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCB9099C2680125100A1EAD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CCB9099E2680125100A1EAD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCB9099E2680125100A1EAD5 /* PassGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassGeneratorViewController.swift; sourceTree = "<group>"; };
 		CCB909A12680125100A1EAD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCB909A32680125300A1EAD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCB909A62680125300A1EAD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCB909A82680125300A1EAD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB909AF2680127D00A1EAD5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CCB909B0268012FF00A1EAD5 /* Screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshots; sourceTree = "<group>"; };
+		CCB909B12680183500A1EAD5 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,9 @@
 		CCB9098E2680125100A1EAD5 = {
 			isa = PBXGroup;
 			children = (
+				CCB909AF2680127D00A1EAD5 /* README.md */,
 				CCB909992680125100A1EAD5 /* PassGenerator */,
+				CCB909B0268012FF00A1EAD5 /* Screenshots */,
 				CCB909982680125100A1EAD5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,11 +64,12 @@
 			children = (
 				CCB9099A2680125100A1EAD5 /* AppDelegate.swift */,
 				CCB9099C2680125100A1EAD5 /* SceneDelegate.swift */,
-				CCB9099E2680125100A1EAD5 /* ViewController.swift */,
+				CCB9099E2680125100A1EAD5 /* PassGeneratorViewController.swift */,
 				CCB909A02680125100A1EAD5 /* Main.storyboard */,
 				CCB909A32680125300A1EAD5 /* Assets.xcassets */,
 				CCB909A52680125300A1EAD5 /* LaunchScreen.storyboard */,
 				CCB909A82680125300A1EAD5 /* Info.plist */,
+				CCB909B12680183500A1EAD5 /* Functions.swift */,
 			);
 			path = PassGenerator;
 			sourceTree = "<group>";
@@ -137,9 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB9099F2680125100A1EAD5 /* ViewController.swift in Sources */,
+				CCB9099F2680125100A1EAD5 /* PassGeneratorViewController.swift in Sources */,
 				CCB9099B2680125100A1EAD5 /* AppDelegate.swift in Sources */,
 				CCB9099D2680125100A1EAD5 /* SceneDelegate.swift in Sources */,
+				CCB909B22680183500A1EAD5 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +292,7 @@
 		CCB909AC2680125300A1EAD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = icon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8KP35A72P;
@@ -303,7 +311,7 @@
 		CCB909AD2680125300A1EAD5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = icon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8KP35A72P;
